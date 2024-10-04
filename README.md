@@ -44,12 +44,3 @@ A simple **React.js** application to display a list of books with details such a
     ```
 
 
-```
-
-## **How to Use**
-
-1. **Search**: You can use the search bar to filter books by entering the title, author, or genre.
-2. **View Book Details**: Click on any book from the list to view its detailed information, including the description, rating, and publication year.
-3. **Add to Library**: This feature allows users to add books to their library (if implemented).
-
-```
