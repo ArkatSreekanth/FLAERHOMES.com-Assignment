@@ -11,7 +11,7 @@ const Library = () => (
       return (
         <ul className="library-container">
           {libraryBooks.length === 0 ? (
-            <h1 className="main-heading">Not Found</h1>
+            <h1 className="main-heading">Library Empty</h1>
           ) : (
             libraryBooks.map(eachItem => {
               const {title, author, publicationYear, genre, rating, id} =

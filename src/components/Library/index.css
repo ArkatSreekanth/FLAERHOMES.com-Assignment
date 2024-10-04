@@ -10,7 +10,6 @@ ul {
 }
 
 .library-item-container {
-  width: 33%;
   padding: 12px;
 }
 
@@ -20,5 +19,9 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .library-item-container {
+    width: 33%;
   }
 }
