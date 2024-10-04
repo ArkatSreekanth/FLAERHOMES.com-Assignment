@@ -17,26 +17,29 @@ const Library = () => (
               const {title, author, publicationYear, genre, rating, id} =
                 eachItem
               return (
-                <Link to={`books/${id}`} className="library-info">
+                <div className="library-item-container">
                   <li className="book-info-container" key={id}>
-                    <h2 className="heading-color">{title}</h2>
-                    <div className="extra-info">
-                      <p className="desc-color">
-                        <strong className="heading-color">Author:</strong>{' '}
-                        {author}
-                      </p>
-                      <p className="desc-color">
-                        <strong className="heading-color">Year:</strong>{' '}
-                        {publicationYear}
-                      </p>
-                      <p className="desc-color">
-                        <strong className="heading-color">Genre:</strong>{' '}
-                        {genre}
-                      </p>
-                      <p className="desc-color">
-                        <strong color="heading-color">Rating:</strong> {rating}
-                      </p>
-                    </div>
+                    <Link to={`books/${id}`} className="library-info">
+                      <h2 className="heading-color">{title}</h2>
+                      <div className="extra-info">
+                        <p className="desc-color">
+                          <strong className="heading-color">Author:</strong>{' '}
+                          {author}
+                        </p>
+                        <p className="desc-color">
+                          <strong className="heading-color">Year:</strong>{' '}
+                          {publicationYear}
+                        </p>
+                        <p className="desc-color">
+                          <strong className="heading-color">Genre:</strong>{' '}
+                          {genre}
+                        </p>
+                        <p className="desc-color">
+                          <strong color="heading-color">Rating:</strong>{' '}
+                          {rating}
+                        </p>
+                      </div>
+                    </Link>
                     <div
                       style={{
                         textAlign: 'right',
@@ -51,7 +54,7 @@ const Library = () => (
                       </button>
                     </div>
                   </li>
-                </Link>
+                </div>
               )
             })
           )}

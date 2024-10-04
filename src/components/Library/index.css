@@ -5,8 +5,13 @@ ul {
 
 .library-info {
   padding: 12px;
-  width: 33%;
+  width: 100%;
   text-decoration: none;
+}
+
+.library-item-container {
+  width: 33%;
+  padding: 12px;
 }
 
 @media (min-width: 768px) {
