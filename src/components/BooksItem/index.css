@@ -1,0 +1,19 @@
+.book-info-container {
+  padding: 8px;
+  border: 1px solid #cecece;
+  border-radius: 12px;
+  background-color: #f7f9f9;
+  height: 100%;
+  box-shadow: 2px 4px 6px #00000033;
+}
+
+.book-item {
+  padding: 6px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .book-item {
+    width: 33%;
+  }
+}

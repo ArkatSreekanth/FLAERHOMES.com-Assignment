@@ -1,0 +1,46 @@
+.home-bg-container {
+  background-color: #dfedf1;
+  padding: 12px;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #0d0f14;
+}
+
+.search-box {
+  width: 100%;
+  border: 1px solid #646464;
+  border-radius: 12px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  max-width: 428px;
+}
+
+.books-list {
+  padding: 0px;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .books-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .search-box {
+    max-width: 100%;
+  }
+
+  form {
+    align-self: center;
+    width: 50%;
+  }
+}
