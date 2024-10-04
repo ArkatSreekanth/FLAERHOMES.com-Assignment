@@ -77,6 +77,9 @@
 .remove-btn {
   color: #ffffff;
   background-color: red;
+  border-radius: 12px;
+  border: 0px;
+  padding: 8px 18px;
 }
 
 @media (max-width: 768px) {

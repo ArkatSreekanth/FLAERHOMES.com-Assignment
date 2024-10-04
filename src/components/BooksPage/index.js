@@ -70,16 +70,8 @@ const BooksPage = props => {
   const {match} = props
   const {id} = match.params
   const booksInfo = booksData.filter(eachItem => eachItem.id === parseInt(id))
-  const {
-    title,
-    description,
-    author,
-    rating,
-    publicationYear,
-    genre,
-    imageUrl,
-    isFavourite,
-  } = booksInfo[0]
+  const {title, description, author, rating, publicationYear, genre, imageUrl} =
+    booksInfo[0]
 
   const backToList = () => {
     const {history} = props
